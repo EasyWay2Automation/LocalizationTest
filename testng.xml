@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LocalizationSuite">
+  <test thread-count="5" name="LocalizationTest">
+  <parameter name="browser" value="chrome" />
+    <classes>
+      <class name="com.localization.TestCases.GoogleTest"/>
+    </classes>
+  </test> <!-- LocalizationTest -->
+</suite> <!-- LocalizationSuite -->
